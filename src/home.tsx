@@ -4,6 +4,7 @@ import { ZenglThumbnail } from './zengl-thumbnail';
 import { ModernglThumbnail } from './moderngl-thumbnail';
 import { PythonThumbnail } from './python-thumbnail';
 import { BlenderThumbnail } from './blender-thumbnail';
+import { OttoThumbnail } from './otto-thumbnail';
 
 const Post = ({ thumbnail, title, description, href }) => {
   const [hover, setHover] = useState(false);
@@ -84,7 +85,7 @@ export const Home = () => {
       >
         <Post
           href="https://szabolcsdombi.com/otto-simulator/"
-          thumbnail={<PythonThumbnail size={200} />}
+          thumbnail={<OttoThumbnail size={200} resolution={600} />}
           title="Otto Simulator"
           description="This project brings Otto to your browser. Even better, it allows you to simulate Otto within Python. The simulation implements the Gym Interface."
         />
