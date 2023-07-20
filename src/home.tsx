@@ -91,7 +91,7 @@ export const Home = () => {
         />
         <Post
           href="https://github.com/szabolcsdombi/zengl/discussions/37"
-          thumbnail={<ArticleThumbnail size={200} />}
+          thumbnail={<PythonThumbnail size={200} />}
           title="ZenGL and ModernGL"
           description="Why did I built two OpenGL Rendering libraries for Python?"
         />
@@ -112,6 +112,72 @@ export const Home = () => {
           thumbnail={<ModernglThumbnail size={200} resolution={600} />}
           title="ModernGL"
           description="ModernGL is a Python wrapper over OpenGL that simplifies the creation of simple graphics applications like scientific simulations, games or user interfaces."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/python-rigging"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Python Rigging"
+          description="Python extension for rigging."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/python-terrain"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Python Terrain"
+          description="Python extension for terrain manipulation."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/python-mesh-join"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Python Mesh Join"
+          description="Python extension for joining indexed meshes."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/python-capsule-shape"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Python Capsule Shape"
+          description="Python extension for creating a renderable capsule shape."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/python-depth-sort"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Python Depth Sort"
+          description="Python extension for sorting the triangles of a mesh."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/python-bezier"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Python Bezier"
+          description="Python extension for generate=ing cubic bezier curves."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/python-camera"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Python Camera"
+          description="Python extension implementing a simple camera for 3D projects."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/python-mesh-raycast"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Python Mesh Raycast"
+          description="Python extension for calculating ray and triangle intersections."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/python-mesh-normals"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Python Mesh Normals"
+          description="Python extension for generating mesh normals from vertex data."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/python-quickhull"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Python Quickhull"
+          description="Python extension for building convex hulls from points."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/python-compute-shader"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Python Compute Shapder"
+          description="Python extension interfacing the OpenGL Compute Shaders and Storage Buffers."
         />
       </div>
       <div style={{ height: '60px' }} />
