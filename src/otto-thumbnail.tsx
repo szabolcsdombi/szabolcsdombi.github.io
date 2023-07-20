@@ -909,17 +909,28 @@ export const OttoThumbnail = ({ size, resolution }) => {
     };
 
     const mousemove = (evt) => {
+      const { clientX, clientY } = evt;
       const rect = ref.current.getBoundingClientRect();
       const cx = (rect.left + rect.right) / 2.0;
       const cy = (rect.top + rect.bottom) / 2.0;
-      hover.current = clip({ x: (evt.clientX - cx) / resolution, y: (evt.clientY - cy) / resolution });
+      hover.current = clip({ x: (clientX - cx) / resolution, y: (clientY - cy) / resolution });
+    };
+
+    const touchmove = (evt) => {
+      const { clientX, clientY } = evt.touches[0];
+      const rect = ref.current.getBoundingClientRect();
+      const cx = (rect.left + rect.right) / 2.0;
+      const cy = (rect.top + rect.bottom) / 2.0;
+      hover.current = clip({ x: (clientX - cx) / resolution, y: (clientY - cy) / resolution });
     };
 
     document.addEventListener('mousemove', mousemove);
+    document.addEventListener('touchmove', touchmove);
     anim = requestAnimationFrame(render);
 
     return () => {
       document.removeEventListener('mousemove', mousemove);
+      document.removeEventListener('touchmove', touchmove);
       cancelAnimationFrame(anim);
     };
   }, []);
