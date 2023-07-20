@@ -1,1 +1,1 @@
-# szabolcsdombi.github.io
+# [szabolcsdombi.com](https://szabolcsdombi.com/)
