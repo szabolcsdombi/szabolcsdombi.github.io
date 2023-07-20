@@ -114,8 +114,8 @@ export const ZenglThumbnail = ({ size, resolution }) => {
       gl.enable(gl.DEPTH_TEST);
       gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
       gl.useProgram(prog);
-      gl.drawArraysInstanced(gl.TRIANGLE_STRIP, 0, 4, 7);
       gl.uniform2f(gl.getUniformLocation(prog, 'offset'), hover.current.x, hover.current.y);
+      gl.drawArraysInstanced(gl.TRIANGLE_STRIP, 0, 4, 7);
       anim = requestAnimationFrame(render);
     };
 
