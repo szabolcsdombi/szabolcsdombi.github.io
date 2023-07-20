@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { ZenglThumbnail } from './zengl-thumbnail';
 import { ModernglThumbnail } from './moderngl-thumbnail';
 import { PythonThumbnail } from './python-thumbnail';
-import { ArticleThumbnail } from './article-thumbnail';
 import { BlenderThumbnail } from './blender-thumbnail';
 
 const Post = ({ thumbnail, title, description, href }) => {
