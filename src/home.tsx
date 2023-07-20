@@ -83,6 +83,12 @@ export const Home = () => {
         }}
       >
         <Post
+          href="https://szabolcsdombi.com/otto-simulator/"
+          thumbnail={<PythonThumbnail size={200} />}
+          title="Otto Simulator"
+          description="This project brings Otto to your browser. Even better, it allows you to simulate Otto within Python. The simulation implements the Gym Interface."
+        />
+        <Post
           href="https://github.com/szabolcsdombi/blender-docker-cli"
           thumbnail={<BlenderThumbnail size={200} />}
           title="Blender in Docker"
