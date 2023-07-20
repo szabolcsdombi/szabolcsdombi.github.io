@@ -153,7 +153,7 @@ export const Home = () => {
           href="https://github.com/szabolcsdombi/python-bezier"
           thumbnail={<PythonThumbnail size={200} />}
           title="Python Bezier"
-          description="Python extension for generate=ing cubic bezier curves."
+          description="Python extension for generating cubic bezier curves."
         />
         <Post
           href="https://github.com/szabolcsdombi/python-camera"
