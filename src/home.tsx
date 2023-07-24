@@ -95,34 +95,16 @@ export const Home = () => {
         }}
       >
         <Post
-          href="https://github.com/szabolcsdombi/pocket-cube"
-          thumbnail={<PocketCubeThumbnail size={thumbnailSize} resolution={400} />}
-          title="Solving the Pocket Cube"
-          description="There are 3674160 different pocket cube states. Let's find them with Python."
-        />
-        <Post
           href="https://szabolcsdombi.com/otto-simulator/"
           thumbnail={<OttoThumbnail size={thumbnailSize} resolution={400} />}
           title="Otto Simulator"
           description="This project brings Otto to your browser. Even better, it allows you to simulate Otto within Python. The simulation implements the Gym Interface."
         />
         <Post
-          href="https://github.com/szabolcsdombi/blender-docker-cli"
-          thumbnail={<BlenderThumbnail size={thumbnailSize} />}
-          title="Blender in Docker"
-          description="Exporting assets as a build step and more."
-        />
-        <Post
-          href="https://github.com/szabolcsdombi/zengl/discussions/37"
-          thumbnail={<PythonThumbnail size={thumbnailSize} />}
-          title="ZenGL and ModernGL"
-          description="Why did I built two OpenGL Rendering libraries for Python?"
-        />
-        <Post
-          href="https://szabolcsdombi.github.io/web-gym/"
-          thumbnail={<PythonThumbnail size={thumbnailSize} />}
-          title="Gym in the Browser"
-          description="Gymnasium is a maintained fork of OpenAI's Gym library. This experiment intends to bring it to the web for demo purposes."
+          href="https://github.com/szabolcsdombi/pocket-cube"
+          thumbnail={<PocketCubeThumbnail size={thumbnailSize} resolution={400} />}
+          title="Solving the Pocket Cube"
+          description="There are 3674160 different pocket cube states. Let's find them with Python."
         />
         <Post
           href="https://github.com/szabolcsdombi/zengl"
@@ -135,6 +117,24 @@ export const Home = () => {
           thumbnail={<ModernglThumbnail size={thumbnailSize} resolution={400} />}
           title="ModernGL"
           description="ModernGL is a Python wrapper over OpenGL that simplifies the creation of simple graphics applications like scientific simulations, games or user interfaces."
+        />
+        <Post
+          href="https://szabolcsdombi.github.io/web-gym/"
+          thumbnail={<PythonThumbnail size={thumbnailSize} />}
+          title="Gym in the Browser"
+          description="Gymnasium is a maintained fork of OpenAI's Gym library. This experiment intends to bring it to the web for demo purposes."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/blender-docker-cli"
+          thumbnail={<BlenderThumbnail size={thumbnailSize} />}
+          title="Blender in Docker"
+          description="Exporting assets as a build step and more."
+        />
+        <Post
+          href="https://github.com/szabolcsdombi/zengl/discussions/37"
+          thumbnail={<PythonThumbnail size={thumbnailSize} />}
+          title="ZenGL and ModernGL"
+          description="Why did I built two OpenGL Rendering libraries for Python?"
         />
         <Post
           href="https://github.com/szabolcsdombi/python-rigging"
