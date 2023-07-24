@@ -5,6 +5,7 @@ import { ModernglThumbnail } from './moderngl-thumbnail';
 import { PythonThumbnail } from './python-thumbnail';
 import { BlenderThumbnail } from './blender-thumbnail';
 import { OttoThumbnail } from './otto-thumbnail';
+import { PocketCubeThumbnail } from './pocket-cube-thumbnail';
 
 const Post = ({ thumbnail, title, description, href }) => {
   const [hover, setHover] = useState(false);
@@ -93,6 +94,12 @@ export const Home = () => {
           margin: 'auto',
         }}
       >
+        <Post
+          href="https://github.com/szabolcsdombi/pocket-cube"
+          thumbnail={<PocketCubeThumbnail size={thumbnailSize} resolution={400} />}
+          title="Solving the Pocket Cube"
+          description="There are 3674160 different pocket cube states. Let's find them with Python."
+        />
         <Post
           href="https://szabolcsdombi.com/otto-simulator/"
           thumbnail={<OttoThumbnail size={thumbnailSize} resolution={400} />}
