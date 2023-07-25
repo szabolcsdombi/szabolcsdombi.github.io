@@ -119,7 +119,7 @@ export const Home = () => {
           description="ModernGL is a Python wrapper over OpenGL that simplifies the creation of simple graphics applications like scientific simulations, games or user interfaces."
         />
         <Post
-          href="https://szabolcsdombi.github.io/web-gym/"
+          href="https://szabolcsdombi.com/web-gym/"
           thumbnail={<PythonThumbnail size={thumbnailSize} />}
           title="Gym in the Browser"
           description="Gymnasium is a maintained fork of OpenAI's Gym library. This experiment intends to bring it to the web for demo purposes."
